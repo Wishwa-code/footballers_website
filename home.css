@@ -1,0 +1,200 @@
+.container {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: 10% 35% 35% 10%;
+      grid-template-columns: 10% 35% 35% 10%;
+  -ms-grid-rows: 200px 100px 70px 600px 150px 20px 90%  100px;
+      grid-template-rows: 200px 100px 70px 600px 150px 20px 90%  100px;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  background-color: #CAFAFE;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.img_1 {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 4;
+  -ms-grid-row: 4;
+      grid-row-start: 4;
+  grid-row-end: 5;
+  background: url(football.jpg);
+  background-size: 100% 600px;
+  text-align: center;
+  line-height: 600px;
+  vertical-align: middle;
+  font-family: 'Roboto', sans-serif;
+  font-size: 140px;
+  color: crimson;
+  border-radius: 40px;
+  -webkit-box-shadow: 0px 7px 6px -2px rgba(0, 0, 0, 0.55);
+          box-shadow: 0px 7px 6px -2px rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+
+.img_2 {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 4;
+  -ms-grid-row: 4;
+      grid-row-start: 4;
+  grid-row-end: 5;
+  background: url(football.jpg);
+  background-size: 100% 600px;
+  text-align: center;
+  line-height: 600px;
+  vertical-align: middle;
+  font-family: 'Roboto', sans-serif;
+  font-size: 140px;
+  color: crimson;
+  border-radius: 40px;
+  -webkit-box-shadow: 0px 7px 6px -2px rgba(0, 0, 0, 0.55);
+          box-shadow: 0px 7px 6px -2px rgba(0, 0, 0, 0.55);
+}
+
+img {
+  width: 90%;
+  padding-top: 30px;
+}
+
+/*header part */
+.menu {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 4;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-left: 5px;
+}
+
+li {
+  float: left;
+  width: 25%;
+}
+
+.header {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 5;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+p.my {
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 30px;
+}
+
+#pn {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#league {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 50px;
+}
+
+#league td, #league th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 33%;
+  text-align: center;
+}
+
+#league tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#league tr:nth-child(odd) {
+  background-color: cadetblue;
+}
+
+#league th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+@media only screen and (max-width: 750px) {
+  body {
+    background-color: greenyellow;
+  }
+  .content1, .content2, .content3 {
+    background-color: greenyellow;
+  }
+  .content2 {
+    background-color: greenyellow;
+  }
+  .content3 {
+    background-color: greenyellow;
+  }
+}
+
+li a {
+  display: block;
+  color: red;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 40px;
+  padding: 20px 10px;
+  margin-right: 15;
+  -webkit-box-shadow: 0px 7px 6px -2px rgba(0, 0, 0, 0.55);
+          box-shadow: 0px 7px 6px -2px rgba(0, 0, 0, 0.55);
+}
+
+li a:hover {
+  background-color: #111;
+  -webkit-box-shadow: 0px 7px 6px 2px rgba(0, 0, 0, 0.55);
+          box-shadow: 0px 7px 6px 2px rgba(0, 0, 0, 0.55);
+}
+
+.content1, .content2, .content3 {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 4;
+  -ms-grid-row: 4;
+      grid-row-start: 4;
+  grid-row-end: 8;
+  background-color: aqua;
+  z-index: 0;
+  border-radius: 40px;
+  padding-top: 640px;
+  display: block;
+}
+
+.content2 {
+  height: 750px;
+}
+
+.content3 {
+  height: 1600px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: justify;
+}
+/*# sourceMappingURL=home.css.map */
